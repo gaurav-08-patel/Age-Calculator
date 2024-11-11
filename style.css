@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: "Ubuntu", sans-serif;
+}
+.heading{
+    margin-bottom: 1rem;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
+    color: #024460;
+}
+
+
+
+.section-center{
+    margin: auto;
+    margin-top: 100px;
+    height:fit-content ;
+    width: 95vw;
+    max-width: 35rem;
+    min-width: 10rem;
+    /* border: 2px solid green; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(181, 181, 181);
+    position: relative;
+}
+.input-box{
+    display: flex;
+    justify-content:center ;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+   
+    
+}
+span{
+    display: inline-block;
+    width: 4rem;
+    /* background-color: aqua; */
+    letter-spacing: 0.15rem;
+}
+input{
+    width: 6rem;
+}
+input:focus{
+    outline: none;
+    border:2px solid #c7c7c8;
+    border-radius: 2px;
+}
+.your-age{
+    margin: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+.age-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 14rem;
+    padding-top: 8px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(217, 217, 217);
+}
+.submit{
+    margin: 10px;
+    padding: 4px;
+    background: none;
+    width: 5rem;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #9dd5fb;
+    border: none;
+}
+.submit:hover{
+    background-color: #5CA7DA;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.age-box{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.msg-box{
+    position: absolute;
+    top: -50px;
+    /* left: 40%; */
+    width: 40%;
+    height: 2rem;
+    background-color: #9dd5fb;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* right: 50%; */
+    visibility: hidden;
+}
+.danger{
+    background-color: rgb(248, 201, 201);
+    color: rgb(252, 97, 97);
+    visibility: visible;
+}
+.success{
+    background-color: rgb(209, 247, 209);
+    color: rgb(98, 244, 98);
+    visibility: visible;
+}
+
+
+.counter-container{
+    height:3rem;
+    min-width: 3.5rem;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0B4F6C;
+    border-radius: 5px;
+}
+.counter-container p,h1{
+    font-weight: lighter;
+}
